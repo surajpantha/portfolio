@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar With Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="random.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <aside id="sidebar" class="position-sticky top-0 start-0">
+            <div class="d-flex">
+                <button class="toggle-btn" type="button">
+                    <i class="bi bi-grid"></i>
+                </button>
+                <div class="sidebar-logo">
+                    <a href="#">Suraj Pantha</a>
+                </div>
+            </div>
+            <div class="continer w-100 d-flex  justify-content-center">
+
+                <div class="profile-img w-75 border border-primary rounded-circle">
+                    <img src="my-profile-img.jpg" alt="" class="img-fluid rounded-circle">
+
+                </div>
+
+
+
+            </div>
+
+            <div class="smlinks text-light d-flex justify-content-evenly w-100 my-3 fs-5 d-none cursor-pointer">
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-linkedin"></i>
+                <i class="bi bi-github"></i>
+            </div>
+
+            <ul class="sidebar-nav">
+                <li class="sidebar-item">
+                    <a href="#hero" class="sidebar-link">
+                        <i class="bi bi-house"></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#about" class="sidebar-link">
+                        <i class="bi bi-person"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#portfolio" class="sidebar-link">
+                        <i class="bi  bi-images"></i>
+                        <span>Portfolio</span>
+                    </a>
+                </li>
+                <!-- <li class="sidebar-item">
+                    <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
+                        data-bs-target="#multi" aria-expanded="false" aria-controls="multi">
+                        <i class="lni lni-layout"></i>
+                        <span>Multi Level</span>
+                    </a>
+                    <ul id="multi" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="#" class="sidebar-link collapsed" data-bs-toggle="collapse"
+                                data-bs-target="#multi-two" aria-expanded="false" aria-controls="multi-two">
+                                Two Links
+                            </a>
+                            <ul id="multi-two" class="sidebar-dropdown list-unstyled collapse">
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">Resume</a>
+                                </li>
+                                <li class="sidebar-item">
+                                    <a href="#" class="sidebar-link">Portfolio</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li> -->
+                <li class="sidebar-item">
+                    <a href="#resume" class="sidebar-link">
+                        <i class="bi bi-file-earmark-person"></i>
+                        <span>Resume</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#services" class="sidebar-link">
+                        <i class="bi bi-hdd-stack"></i>
+                        <span>Services</span>
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#contacts  " class="sidebar-link">
+                        <i class="bi bi-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+
+        </aside>
+        <div class="main">
+            <div id="hero" class="border border-dark">
+
+                <div class="container-fluid p-0 position-relative h-100">
+                    <img src="https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/hero-bg.jpg" alt=""
+                        class="img-fluid h-100 w-100 opacity-75">
+                    <div
+                        class="text-light d-flex justify-content-center flex-column text-center m-0  position-absolute top-50 start-25">
+                        <h1 class="display-2 text-start fw-semibold">Suraj Pantha</h1>
+                        <p class="m-0 fs-1">I'm<span class="ms-2" id="element"></span></p>
+
+                    </div>
+                </div>
+
+            </div>
+            <section class="contianer-fluid" id="about">
+                <div class="container title bg-transparent pt-5 mx-0">
+                    <div>
+                        <h1 class="text-decoration-underline text-dark">About</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam velit voluptates ea quae
+                            ipsum,
+                            officiis
+                            deserunt autem sit quod rem minus optio quam?Lorem ipsum dolor sit amet consectetur
+                            adipisicing
+                            elit.
+                            Architecto totam suscipit dolore id repudiandae ex! Enim natus quidem velit quas repellendus
+                            quam nihil
+                            excepturi vero facilis adipisci, libero nulla! Dolores!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row gx-5 w-100">
+                    <div class="col-md-4">
+                        <img src="https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/my-profile-img.jpg"
+                            alt="" class="img-fluid">
+                    </div>
+                    <div class="col-md-8 p-0">
+                        <div class="container-lg">
+
+
+
+                            <div class="container">
+
+                                <h3>Web developer and freelancer</h3>
+                                <p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, quod!
+                                    Lorem
+                                    ipsum dolor
+                                    sit amet, consectetur adipisicing elit. Laborum, facere?
+                                </p>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-md-6">
+                                    <ul class="">
+                                        <li class="pt-3"></li>
+                                        <li class="pt-4"></li>
+                                        <li class="pt-4"></li>
+                                        <li class="pt-4"></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li class="pt-3"></li>
+                                        <li class="pt-4"></li>
+                                        <li class="pt-4"></li>
+                                        <li class="pt-4"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="container">
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi corporis debitis
+                                    quam
+                                    ducimus
+                                    consequuntur, modi non cum quae consequatur laudantium, dignissimos iusto quos?
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-fluid" id="clients">
+                <div class="clients my-5 d-flex justify-content-evenly flex-wrap align-items-center w-100">
+
+                    <div class="flex-item">
+                        <i class="bi bi-emoji-smile fs-1 text-primary fw-bold"></i>
+                        <p class="d-inline px-2 fw-bold fs-3">232</p>
+                        <span class="d-block mx-4 fs-5">Happy Clients</span>
+                    </div>
+
+                    <div class="flex-item">
+                        <i class="bi bi-file-code fs-1 text-primary fw-bold"></i>
+                        <p class="d-inline px-2 fw-bold fs-3">XXX</p>
+                        <span class="d-block mx-5 fs-5">Projects Completed</span>
+                    </div>
+
+                    <div class="flex-item">
+                        <i class="bi bi-headset fs-1 text-primary fw-bold"></i>
+                        <p class="d-inline px-2 fw-bold fs-3">xxxx</p>
+                        <span class="d-block mx-5 fs-5">Hours of services</span>
+                    </div>
+
+                    <div class="flex-item">
+                        <i class="bi bi-people fs-1 text-primary fw-bold"></i>
+                        <p class="d-inline px-2 fw-bold fs-3">32</p>
+                        <span class="d-block mx-5 py-0 my-0 fs-5">Lorem ipsum <br>dolor sit amet.</span>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="skills">
+
+
+                <div class="container-lg  bg-transparent pt-5 mx-0">
+                    <h1 class="text-decoration-underline text-dark">Skills</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam velit voluptates ea quae ipsum,
+                        officiis
+                        deserunt autem sit quod rem minus optio quam?Lorem ipsum dolor sit amet consectetur adipisicing
+                    </p>
+                </div>
+
+
+                <div class="container">
+                    <div class="row my-5 gy-3">
+
+                        <div class="col-md-6 d-flex flex-column gap-3">
+                            <p class="m-0">HTML</p>
+                            <div class="progress bg-secondary rounded-0" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                            <p class="m-0">CSS</p>
+                            <div class="progress bg-secondary rounded-0" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                            <p class="m-0">Bootstrap</p>
+                            <div class="progress bg-secondary rounded-0" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar" style="width: 40%"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 d-flex flex-column gap-3">
+                            <p class="m-0">Javascript</p>
+                            <div class="progress bg-secondary rounded-0" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar" style="width: 80%"></div>
+                            </div>
+                            <p class="m-0">React</p>
+                            <div class="progress bg-secondary rounded-0" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar" style="width: 10%"></div>
+                            </div>
+                            <p class="m-0">PHP</p>
+                            <div class="progress bg-secondary rounded-0" role="progressbar" aria-label="Basic example"
+                                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="height: 10px">
+                                <div class="progress-bar" style="width: 25%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="resume">
+
+                <div class="container-fluid">
+                    <h1 class=" text-decoration-underline text-dark">Resume</h1>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint
+                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                        Quia
+                        fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+
+                    <div class="row">
+
+                        <div class="col-lg-6">
+                            <h3 class="resume-title fw-bold">Summary</h3>
+
+                            <div class="resume-item pb-0">
+                                <h4 class="fw-semibold">Brandon Johnson</h4>
+                                <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience
+                                        designing
+                                        and developing user-centered digital/print marketing material from initial
+                                        concept
+                                        to final, polished deliverable.</em></p>
+                                <ul>
+                                    <li>Portland par 127,Orlando, FL</li>
+                                    <li>(123) 456-7891</li>
+                                    <li>alice.barkley@example.com</li>
+                                </ul>
+                            </div><!-- Edn Resume Item -->
+
+                            <h3 class="resume-title fw-bold">Education</h3>
+                            <div class="resume-item">
+                                <h4 class="fw-semibold">Master of Fine Arts &amp; Graphic Design</h4>
+                                <h5>2015 - 2016</h5>
+                                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                                <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea
+                                    vero
+                                    voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                            </div><!-- Edn Resume Item -->
+
+                            <div class="resume-item">
+                                <h4 class="fw-semibold">Bachelor of Fine Arts &amp; Graphic Design</h4>
+                                <h5>2010 - 2014</h5>
+                                <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                                <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius
+                                    vel
+                                    ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae
+                                    consequatur neque etlon sader mart dila</p>
+                            </div><!-- Edn Resume Item -->
+
+                        </div>
+
+                        <div class="col-lg-6">
+                            <h3 class="resume-title fw-bold">Professional Experience</h3>
+                            <div class="resume-item">
+                                <h4 class="fw-semibold">Senior graphic design specialist</h4>
+                                <h5>2019 - Present</h5>
+                                <p><em>Experion, New York, NY </em></p>
+                                <ul>
+                                    <li>Lead in the design, development, and implementation of the graphic, layout, and
+                                        production communication materials</li>
+                                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all
+                                        aspects of the project. </li>
+                                    <li>Supervise the assessment of all graphic materials in order to ensure quality and
+                                        accuracy of the design</li>
+                                    <li>Oversee the efficient use of production project budgets ranging from $2,000 -
+                                        $25,000</li>
+                                </ul>
+                            </div><!-- Edn Resume Item -->
+
+                            <div class="resume-item">
+                                <h4 class="fw-semibold">Graphic design specialist</h4>
+                                <h5>2017 - 2018</h5>
+                                <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                                <ul>
+                                    <li>Developed numerous marketing programs (logos, brochures,infographics,
+                                        presentations,
+                                        and advertisements).</li>
+                                    <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                                    <li>Recommended and consulted with clients on the most appropriate graphic design
+                                    </li>
+                                    <li>Created 4+ design presentations and proposals a month for clients and account
+                                        managers</li>
+                                </ul>
+                            </div><!-- Edn Resume Item -->
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="services">
+                <div class="container-fluid my-5">
+                    <h1 class=" text-decoration-underline text-dark">Services</h1>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint
+                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                        Quia
+                        fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <div class="container text-center my-5">
+                        <div class="row row-cols--md-3 gy-5">
+                            <div class="col-lg-4 d-flex justify-content-evenly">
+                                <div class="icons rounded-circle text-center border border-primary d-flex  align-items-center justify-content-center me-3"
+                                    style="width:10rem; height: 4rem;">
+                                    <i class="bi bi-briefcase fs-3  fw-semibold"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h5 class="fw-semibold fs-4">Lorem, ipsum.</h5>
+                                    <p class="text-secondary-emphasis small">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Vitae, beatae! Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Iste, tenetur.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-evenly">
+                                <div class="icons rounded-circle text-center border border-primary d-flex  align-items-center justify-content-center me-3"
+                                    style="width:10rem; height: 4rem;">
+                                    <i class="bi bi-briefcase fs-3  fw-semibold"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h5 class="fw-semibold fs-4">Lorem, ipsum.</h5>
+                                    <p class="text-secondary-emphasis small">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Vitae, beatae! Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Iste, tenetur.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-evenly">
+                                <div class="icons rounded-circle text-center border border-primary d-flex  align-items-center justify-content-center me-3"
+                                    style="width:10rem; height: 4rem;">
+                                    <i class="bi bi-briefcase fs-3  fw-semibold"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h5 class="fw-semibold fs-4">Lorem, ipsum.</h5>
+                                    <p class="text-secondary-emphasis small">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Vitae, beatae! Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Iste, tenetur.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-evenly">
+                                <div class="icons rounded-circle text-center border border-primary d-flex  align-items-center justify-content-center me-3"
+                                    style="width:10rem; height: 4rem;">
+                                    <i class="bi bi-briefcase fs-3  fw-semibold"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h5 class="fw-semibold fs-4">Lorem, ipsum.</h5>
+                                    <p class="text-secondary-emphasis small">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Vitae, beatae! Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Iste, tenetur.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-evenly">
+                                <div class="icons rounded-circle text-center border border-primary d-flex  align-items-center justify-content-center me-3"
+                                    style="width:10rem; height: 4rem;">
+                                    <i class="bi bi-briefcase fs-3  fw-semibold"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h5 class="fw-semibold fs-4">Lorem, ipsum.</h5>
+                                    <p class="text-secondary-emphasis small">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Vitae, beatae! Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Iste, tenetur.
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-evenly">
+                                <div class="icons rounded-circle text-center border border-primary d-flex  align-items-center justify-content-center me-3"
+                                    style="width:10rem; height: 4rem;">
+                                    <i class="bi bi-briefcase fs-3  fw-semibold"></i>
+                                </div>
+                                <div class="text-start">
+                                    <h5 class="fw-semibold fs-4">Lorem, ipsum.</h5>
+                                    <p class="text-secondary-emphasis small">Lorem ipsum dolor sit amet consectetur
+                                        adipisicing elit. Vitae, beatae! Lorem ipsum dolor sit amet conlgctetur
+                                        adipisicing elit. Iste, tenetur.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+            <section id="portfolio">
+                <div class="container-lg  bg-transparent pt-5 mx-0">
+                    <h1 class="text-decoration-underline text-dark">Portfolio</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam velit voluptates ea quae ipsum,
+                        officiis
+                        deserunt autem sit quod rem minus optio quam?Lorem ipsum dolor sit amet consectetur adipisicing
+                    </p>
+                </div>
+
+
+                <div class="container">
+
+
+
+
+                    <div class="row row-cols--md-3 gy-5">
+                        <div class="col-lg-4 d-flex justify-content-evenly">
+                            <div>
+                                <img src="my-profile-img.jpg" class="img-fluid" alt="">
+                               
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-evenly">
+                            <div>
+                                <img src="my-profile-img.jpg" class="img-fluid" alt="">
+                               
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-evenly">
+                            <div>
+                                <img src="my-profile-img.jpg" class="img-fluid" alt="">
+                               
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-evenly">
+                            <div>
+                                <img src="my-profile-img.jpg" class="img-fluid" alt="">
+                               
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-evenly">
+                            <div>
+                                <img src="my-profile-img.jpg" class="img-fluid" alt="">
+                               
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 d-flex justify-content-evenly">
+                            <div>
+                                <img src="my-profile-img.jpg" class="img-fluid" alt="">
+                               
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="contacts">
+
+                <div class="container-fluid my-5">
+                    <div class="contacts">
+                        <h1 class="text-decoration-underline text-dark">Contact</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam velit voluptates ea quae
+                            ipsum,
+
+                        </p>
+                    </div>
+
+
+
+
+
+                    <div class="row">
+                        <div class="col-md-6  my-3  p-0">
+                            <div class="container-fluid w-75 d-flex flex-column gap-4 border border-dark">
+                                <div class="contact-item">
+                                    <i class="bi bi-geo-alt fs-3 text-primary fw-bold"></i>
+                                    <p class="d-inline px-2 fw-bold fs-5">Address</p>
+                                    <span class="d-block mx-4 fs-6">Sainamaina-6,Nepal</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-telephone fs-3 text-primary fw-bold"></i>
+                                    <p class="d-inline px-2 fw-bold fs-5">call</p>
+                                    <span class="d-block mx-4 fs-6">+977-XXXXXXXXXX</span>
+                                </div>
+                                <div class="contact-item">
+                                    <i class="bi bi-envelope fs-3 text-primary fw-bold"></i>
+                                    <p class="d-inline px-2 fw-bold fs-5">E-mail us</p>
+                                    <span class="d-block mx-4 fs-6">xyz@gmail.com</span>
+                                </div>
+                                <div>
+                                    <li class="d-block px-2 fs-5">use map for convenience</li>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d995.272397587757!2d83.31215844356224!3d27.687605686216813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39968b41a559ad1f%3A0x9f13a18f0b073dfe!2sMalmala%20Devi%20Road%20Entrance!5e0!3m2!1sen!2snp!4v1721043740580!5m2!1sen!2snp"
+                                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6 my-3">
+                            <div class="container border border-dark">
+
+                                <form action="forms/contact.php" method="post"
+                                    class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                                    <div class="row gy-4">
+
+                                        <div class="col-md-6">
+                                            <label for="name-field" class="pb-2">Your Name</label>
+                                            <input type="text" name="name" id="name-field" class="form-control"
+                                                required="">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <label for="email-field" class="pb-2">Your Email</label>
+                                            <input type="email" class="form-control" name="email" id="email-field"
+                                                required="">
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <label for="subject-field" class="pb-2">Subject</label>
+                                            <input type="text" class="form-control" name="subject" id="subject-field"
+                                                required="">
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <label for="message-field" class="pb-2">Message</label>
+                                            <textarea class="form-control" name="message" rows="10" id="message-field"
+                                                required=""></textarea>
+                                        </div>
+
+                                        <div class="col-md-12 text-center">
+
+
+                                            <button class="btn btn-primary" type="submit">Send Message</button>
+                                        </div>
+
+                                    </div>
+                                </form>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+    </div>
+
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+<script>
+    var typed = new Typed('#element', {
+        strings: ['a Web Developer', 'a Freelancer', 'a passionate learner'],
+        typeSpeed: 50,
+    });
+</script>
+
+
+</html>
